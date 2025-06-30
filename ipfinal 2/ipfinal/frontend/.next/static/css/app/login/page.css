@@ -1,0 +1,158 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/styles/auth.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.auth_authContainer__FU06i {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 1rem;
+}
+
+.auth_authCard__u5h4C {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.auth_authCard__u5h4C:hover {
+  transform: translateY(-5px);
+}
+
+.auth_authCard__u5h4C::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.auth_title___wTBr {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.auth_form__V_XtZ {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.auth_inputGroup__bsTrL {
+  position: relative;
+}
+
+.auth_input__6lnHK {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.auth_input__6lnHK:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  outline: none;
+}
+
+.auth_inputGroup__bsTrL label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 0 0.25rem;
+  color: #64748b;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.auth_inputGroup__bsTrL:focus-within label,
+.auth_input__6lnHK:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(0.85);
+  color: var(--primary-color);
+}
+
+.auth_submitButton__UWYq6 {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.auth_submitButton__UWYq6:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.auth_submitButton__UWYq6:active {
+  transform: translateY(0);
+}
+
+.auth_switchText__LaNit {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #64748b;
+}
+
+.auth_switchLink__GpVv3 {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.auth_switchLink__GpVv3:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.auth_error__clTN7 {
+  color: var(--danger-color);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  animation: auth_shake__RZvBU 0.5s ease-in-out;
+}
+
+@keyframes auth_shake__RZvBU {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.auth_successMessage__uWAsc {
+  background: var(--success-color);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  animation: auth_slideDown__0UY4Q 0.3s ease-out;
+}
+
+@keyframes auth_slideDown__0UY4Q {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+} 
